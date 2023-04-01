@@ -1,0 +1,326 @@
+
+#root{
+  background: linear-gradient(to right, #070f1b, #0e1e2c);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+    width: 99vw;
+    height: 100vh;
+    position: relative;
+    display: flex;;
+  }
+
+  
+  .title{
+  
+    display: block;
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  .tecnology{
+    display: flex;
+    color: #2d3946;
+
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .tecnology > p{
+    display: flex;
+    padding: 5px;
+  }
+  .tecnology >p >svg{
+    font-size:20px;
+    margin: 3px;
+    color: #374553;
+  }
+
+  .buttonContact{
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .gradient {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #070f1b, #0e1e2c);
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: gradient-animation 5s ease-in-out infinite alternate;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+  } 
+  
+
+
+  
+  /* CSS */
+  .button-63 {
+    align-items: center;
+    background-image: linear-gradient(144deg,#0784c1, #0da2e5 40%,#036ca4);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(32, 35, 235, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    margin-right: 20px  ;
+    padding: 19px 24px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  
+  .button-63:active,
+  .button-63:hover {
+    outline: 0;
+  }
+  
+  @media (min-width: 768px) {
+    .button-63 {
+      font-size: 24px;
+      min-width: 196px;
+    }
+  }
+
+
+  
+  
+
+
+/* CSS */
+.button-64 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#0784c1, #0da2e5 40%,#036ca4);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(32, 35, 235, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-64:active,
+.button-64:hover {
+  outline: 0;
+}
+
+.button-64 span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-64:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .button-64 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+
+
+.proyectos-div{
+
+  background: linear-gradient(to right, #070f1b, #0e1e2c);
+  display: block;
+  justify-content: center;
+  align-items: center;
+  
+}
+.contacto-div{
+  background: linear-gradient(to right, #070f1b, #0e1e2c);
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.cardProyect{
+  
+  background: rgba(18, 80, 135, 0.25);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(18, 80, 135, 0.3);
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  padding: 10px;
+  display: inline-block;
+  margin: 40px;
+}
+
+.cardProyect > a> img{
+  width: 100%;
+  border-radius: 10px;
+  height: 200px;
+}
+
+.textProject{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divAllProject{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divAllContacts{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20%;
+  margin-top: 100px;
+}
+
+.divAllContacts > a > .Contact{
+  color: white;
+  margin: 20px;
+  height: 100px;
+  width: 300px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divAllContacts > a > .Contact > svg{
+  font-size: 2rem;
+}
+
+.btnProject{
+  display: none;
+}
+
+@media (max-width: 768px) {
+
+  .container{
+    height: 100vh;
+    width: 100vw;
+  }
+
+  
+
+  .title > div > p{
+    font-size: 2rem;
+  }
+
+  .title .tecnology{
+    display: flex; 
+    
+  }
+  .textP{
+    display: none;
+  }
+  .divAllProject{
+    display: grid;
+    
+  }
+
+  #grid-item {
+    display: none;
+  }
+  
+  #active {
+    display: block; /* se muestra el elemento activo */
+  }
+
+  .divAllContacts{
+    display: grid;
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(to right, #070f1b, #0e1e2c);
+  }
+
+
+  .btnProject{
+    display: flex;
+    margin: auto;
+    padding: 5px;
+    color: white;
+  }
+
+  .btnProject > button{
+    
+  background: rgba(14, 30, 44, 0.87);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(14, 30, 44, 0.3);
+  padding: 5px;
+  margin: 20px;
+  }
+
+  .divAllContacts{
+    width: 100vw;
+  }
+  .divAllProject{
+    width: 100vw;
+  }
+  .contacto-div{
+    width: 100vw;
+  }
+  .proyectos-div{
+    width: 100vw;
+  }
+  .contacto{
+    width: 100vw;
+  }
+}
+
