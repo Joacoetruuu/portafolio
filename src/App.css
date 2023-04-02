@@ -324,3 +324,23 @@ html {
   }
 }
 
+@media (max-height: 699px) {
+
+  html, body{
+    background: linear-gradient(to right, #070f1b, #0e1e2c);
+  }
+
+  .divAllProject{
+    height: 100%;
+
+    
+  }
+
+  .btnProject{
+    margin-bottom: 100px;
+    margin-top: -50px;
+  }
+
+}
+
+
