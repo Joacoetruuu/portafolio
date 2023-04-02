@@ -46,7 +46,7 @@ function App() {
               <button class="button-63" role="button">Contacto</button>
               </a>
               
-              <a href="../CV-Joaquin-Estruch.pdf" target="_blank">
+              <a href="https://drive.google.com/file/d/19esPFbVs7KoORYLhnAKHCrpQLE0QxGAz/view?usp=drivesdk" target="_blank">
                 <button class="button-64" role="button"><span class="text">Ver CV</span></button>
               </a>
 
