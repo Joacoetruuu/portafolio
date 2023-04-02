@@ -45,7 +45,10 @@ function App() {
               <a href="#contacto">
               <button class="button-63" role="button">Contacto</button>
               </a>
-              <button class="button-64" role="button"><span class="text">Ver CV</span></button>
+              
+              <a href="../CV-Joaquin-Estruch.pdf" target="_blank">
+                <button class="button-64" role="button"><span class="text">Ver CV</span></button>
+              </a>
 
             </div>
 
