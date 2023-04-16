@@ -2,46 +2,51 @@ import { Image, Divider, Text } from "@chakra-ui/react";
 import React, { useState } from "react";
 import { AiFillGithub, AiFillChrome } from "react-icons/ai";
 
-function CardProyects({variable}) {
-
+function CardProyects({ variable }) {
   const dataProjects = [
-
-
     {
-
-      image: "https://i.ibb.co/Mnfmf9S/sneakerscrapper-vercel-app-Sneaker-Scrapper.png",
+      image:
+        "https://i.ibb.co/Mnfmf9S/sneakerscrapper-vercel-app-Sneaker-Scrapper.png",
       title: "Sneaker Scrapper",
-      description: "Es una página web que te permite buscar diferentes modelos de zapatillas en múltiples sitios web al mismo tiempo. Así, podrás encontrar la mejor opción y precio sin tener que abrir varias pestañas en tu navegador.",
-      links:  ["https://github.com/Joacoetruuu/client-sneaker-scrapper","https://sneakerscrapper.vercel.app/"]
+      description:
+        "Es una página web que te permite buscar diferentes modelos de zapatillas en múltiples sitios web al mismo tiempo. Así, podrás encontrar la mejor opción y precio sin tener que abrir varias pestañas en tu navegador.",
+      links: [
+        "https://github.com/Joacoetruuu/client-sneaker-scrapper",
+        "https://sneakerscrapper.vercel.app/",
+      ],
     },
     {
-
       image: "https://i.ibb.co/tc0SHBs/binance-p2p-netlify-app-P2-PBinance.png",
       title: "Binance P2P",
-      description: "Binance P2P es una página que muestra las solicitudes de compra y venta en todas las monedas disponibles en Binance, utilizando una API externa.",
-      links: ["https://github.com/Joacoetruuu/binance-p2p", "https://binance-p2p.netlify.app/"]
-
+      description:
+        "Binance P2P es una página que muestra las solicitudes de compra y venta en todas las monedas disponibles en Binance, utilizando una API externa.",
+      links: [
+        "https://github.com/Joacoetruuu/binance-p2p",
+        "https://binance-p2p.netlify.app/",
+      ],
     },
     {
-
-      image: "https://i.ibb.co/PWf2CCx/incomparable-rabanadas-585e97-netlify-app-Adivinalacanci-n-1.png",
-      title: "Spotify Game",
-      description: "Es una página web divertida que te permite vincular tu cuenta de Spotify y adivinar canciones basadas en tus listas de reproducción. La página te muestra una canción y cuatro opciones, y tienes que adivinar cuál es la correcta.",
-      links: ["", "https://incomparable-rabanadas-585e97.netlify.app/"],
-      
+      image:
+        "https://i.ibb.co/hVTXgYh/localhost-5173-Si-Me-Sobrarael-Tiempo-Duki.png",
+      title: "CloneFy",
+      description:
+        "Es una página web clon de Spotify hecha con React que utiliza la Web API de Spotify para controlar la reproducción de música, permitiendo a los usuarios acceder a su biblioteca musical",
+      links: ["", "https://github.com/Joacoetruuu/CloneFy"],
     },
     {
       image: "https://i.ibb.co/K2Xh48y/image.png",
       title: "Dolar Blue",
-      description:  "Dolar Blue es una extensión de Firefox que te muestra la cotización actualizada del dólar oficial, blue y cripto en Argentina.",
-      links: ["https://github.com/Joacoetruuu/extension-google-cotizacion-dolar", "https://addons.mozilla.org/es/firefox/addon/dolar-blue/"]
-    }
-
-
-  ]
+      description:
+        "Dolar Blue es una extensión de Firefox que te muestra la cotización actualizada del dólar oficial, blue y cripto en Argentina.",
+      links: [
+        "https://github.com/Joacoetruuu/extension-google-cotizacion-dolar",
+        "https://addons.mozilla.org/es/firefox/addon/dolar-blue/",
+      ],
+    },
+  ];
   useState(() => {
-    console.log(variable)
-  }, [variable])
+    console.log(variable);
+  }, [variable]);
   return (
     <>
       <div className="cardProyect" id="grid-item active">
@@ -57,15 +62,9 @@ function CardProyects({variable}) {
         >
           {dataProjects[variable].title}
         </Text>
-        <Text color={"white"}>
-          {" "}
-          {dataProjects[variable].description}
-        </Text>
+        <Text color={"white"}> {dataProjects[variable].description}</Text>
 
-        <a
-          href={dataProjects[variable].links[0]}
-          target="_blank"
-        >
+        <a href={dataProjects[variable].links[0]} target="_blank">
           <button>
             <AiFillGithub
               style={{
@@ -140,10 +139,10 @@ function CardProyects({variable}) {
 
       <div className="cardProyect" id="grid-item">
         <a
-          href="https://incomparable-rabanadas-585e97.netlify.app/"
+          href="https://clone-fy.vercel.app/"
           target="_blank"
         >
-          <Image src="https://i.ibb.co/PWf2CCx/incomparable-rabanadas-585e97-netlify-app-Adivinalacanci-n-1.png"></Image>
+          <Image src="https://i.ibb.co/hVTXgYh/localhost-5173-Si-Me-Sobrarael-Tiempo-Duki.png"></Image>
         </a>
         <Divider />
         <Text
@@ -152,17 +151,16 @@ function CardProyects({variable}) {
           fontSize="xl"
           fontWeight="extrabold"
         >
-          Spotify Game
+          CloneFy
         </Text>
         <Text color={"white"}>
           {" "}
-          Es una página web divertida que te permite vincular tu cuenta de
-          Spotify y adivinar canciones basadas en tus listas de reproducción. La
-          página te muestra una canción y cuatro opciones, y tienes que adivinar
-          cuál es la correcta.{" "}
+          Es una página web clon de Spotify hecha con React que utiliza la Web
+          API de Spotify para controlar la reproducción de música, permitiendo a
+          los usuarios acceder a su biblioteca musical.{" "}
         </Text>
 
-        <a href="" target="_blank"></a>
+        <a href="https://github.com/Joacoetruuu/CloneFy" target="_blank">
         <button>
           <AiFillGithub
             style={{
@@ -173,9 +171,9 @@ function CardProyects({variable}) {
             }}
           />
         </button>
-
+        </a>
         <a
-          href="https://incomparable-rabanadas-585e97.netlify.app/"
+          href="https://clone-fy.vercel.app/"
           target="_blank"
         >
           <button>
