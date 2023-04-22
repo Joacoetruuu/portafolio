@@ -27,11 +27,11 @@ function CardProyects({ variable }) {
     },
     {
       image:
-        "https://i.ibb.co/hVTXgYh/localhost-5173-Si-Me-Sobrarael-Tiempo-Duki.png",
-      title: "CloneFy",
+        "https://i.ibb.co/NmNwbg6/fake-bank-ffrt-joacoetruuu-vercel-app-Fake-Bank.png",
+      title: "Fake Bank",
       description:
-        "Es una página web clon de Spotify hecha con React que utiliza la Web API de Spotify para controlar la reproducción de música, permitiendo a los usuarios acceder a su biblioteca musical",
-      links: ["", "https://github.com/Joacoetruuu/CloneFy"],
+        "Fake Bank es una página web que simula el sistema de transacciones de un banco, permitiendo a los usuarios realizar transferencias de dinero, consultar su saldo y ver un historial de transacciones.",
+      links: ["https://github.com/Joacoetruuu/Fake-Bank","https://fake-bank-ffrt-joacoetruuu.vercel.app/"],
     },
     {
       image: "https://i.ibb.co/K2Xh48y/image.png",
@@ -139,10 +139,10 @@ function CardProyects({ variable }) {
 
       <div className="cardProyect" id="grid-item">
         <a
-          href="https://clone-fy.vercel.app/"
+          href="https://fake-bank-phi.vercel.app/"
           target="_blank"
         >
-          <Image src="https://i.ibb.co/hVTXgYh/localhost-5173-Si-Me-Sobrarael-Tiempo-Duki.png"></Image>
+          <Image src="https://i.ibb.co/NmNwbg6/fake-bank-ffrt-joacoetruuu-vercel-app-Fake-Bank.png"></Image>
         </a>
         <Divider />
         <Text
@@ -151,16 +151,14 @@ function CardProyects({ variable }) {
           fontSize="xl"
           fontWeight="extrabold"
         >
-          CloneFy
+          Fake Bank
         </Text>
         <Text color={"white"}>
           {" "}
-          Es una página web clon de Spotify hecha con React que utiliza la Web
-          API de Spotify para controlar la reproducción de música, permitiendo a
-          los usuarios acceder a su biblioteca musical.{" "}
+          Fake Bank es una página web que simula el sistema de transacciones de un banco, permitiendo a los usuarios realizar transferencias de dinero, consultar su saldo y ver un historial de transacciones.{" "}
         </Text>
 
-        <a href="https://github.com/Joacoetruuu/CloneFy" target="_blank">
+        <a href="https://github.com/Joacoetruuu/Fake-Bank" target="_blank">
         <button>
           <AiFillGithub
             style={{
@@ -173,7 +171,7 @@ function CardProyects({ variable }) {
         </button>
         </a>
         <a
-          href="https://clone-fy.vercel.app/"
+          href="https://fake-bank-phi.vercel.app/"
           target="_blank"
         >
           <button>
