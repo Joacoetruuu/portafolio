@@ -5,14 +5,19 @@
 
 html {
   scroll-behavior: smooth;
+
+
 }
+
+
 
 .container {
     width: 99vw;
     height: 100vh;
     position: relative;
     display: flex;;
-  }
+    animation: show .8s  ease reverse;
+  } 
 
   
   .title{
@@ -345,4 +350,11 @@ html {
 
 }
 
-
+@keyframes show {
+  from{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  to{
+    clip-path: polygon(50% 0, 50% 0, 50% 100%, 50% 100%);
+  }
+}
